@@ -14,6 +14,7 @@ body {
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 ul {
@@ -40,6 +41,13 @@ img{
   color: #3D4F9F;
 }
 
+.large-title {
+  font-family: Quicksand;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 60px;
+}
+
 .big-title {
 
   font-family: Quicksand;
@@ -50,6 +58,7 @@ img{
 }
 
 .sm-title {
+  margin-bottom: 16px;
   font-family: Roboto;
   font-weight: 500;
   font-size: 10px;
@@ -61,6 +70,7 @@ img{
 
 
 .btn {
+  box-sizing: border-box;
   min-width: 110px;
   padding: 13px 15px;
   font-family: Quicksand;
@@ -259,7 +269,7 @@ color: #3A79FF;
   padding-left: 270px;
 }
 
-section .sm-title {
+.our-product__sm-title {
   margin-bottom: 26px;
 }
 
@@ -580,7 +590,105 @@ section .sm-title {
 
 
 .testimonials__slider-text {
+  box-shadow: 12px 12px 11px 11px rgba(131, 131, 173, 0.1);
   max-width: 430px;
   padding: 40px 70px;
   background-color: #fff;
+}
+
+
+
+/************* CUSTOMER HELP *************/
+.faq {
+  display: flex;
+  flex-direction: column;
+  padding: 174px 348px;
+  text-align: center;
+  
+}
+
+
+.faq__title {
+  margin-bottom: 68px;
+}
+
+.faq-list {
+  margin: 0 auto;
+  max-width: 740px;
+  text-align: left;
+}
+
+.faq-item {
+  padding: 20px 0px;
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #8E96B7;
+  border-bottom: 1px solid #D8E3FE;
+}
+
+/********************** GET-STARTED **********************/
+
+.get-started {
+  padding: 92px 364px;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+}
+
+
+.get-started__sm-title {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+
+.get-started__large-title {
+  margin-bottom: 28px;
+  font-family: Quicksand;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.get-started__large-title span {
+  font-weight: 500;
+}
+
+.get-started__text {
+  margin: 0 auto;
+  margin-bottom: 28px;
+  max-width: 712px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.get-started___footer {
+  display: flex;
+  justify-content: center;
+}
+
+.get-started___footer .btn{
+  max-width: 132px;
+  max-height: 43px;
+  color: #565F82;
+  background-color: #fff;
+}
+
+.read__btn {
+  min-width: 155px;
+  padding: 13px 8px;
+  border: 1px solid #C7D3FF;
+  background-color: #565F82;
 }
