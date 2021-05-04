@@ -679,7 +679,7 @@ color: #3A79FF;
   justify-content: center;
 }
 
-.get-started___footer .btn{
+.pricing-btn {
   max-width: 132px;
   max-height: 43px;
   color: #565F82;
@@ -689,6 +689,43 @@ color: #3A79FF;
 .read__btn {
   min-width: 155px;
   padding: 13px 8px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
   border: 1px solid #C7D3FF;
+  color: #C7D3FF;
   background-color: #565F82;
+}
+
+
+/************** SIGN UP **************/
+
+.sign-up {
+  display: flex;
+  align-items: center;
+  padding: 118px 276px;
+}
+
+.sign-up .first {
+  width: 50px;
+}
+
+.sign-up__title {
+  margin-bottom: 18px;
+}
+
+.sign-up__text {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  color: #8D96BD;
+}
+
+.sign-up .second {
+  width: 50px;
 }
