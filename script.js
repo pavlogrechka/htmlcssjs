@@ -38,3 +38,47 @@ if (hamburgers.length > 0) {
     }, false);
   });
 }
+
+
+//GET DEVICE TYPE
+
+const isMobile = {
+  Android: function () {
+    return navigator.userAgent.match(/Android/i);
+  },
+  BlackBerry: function () {
+    return navigator.userAgent.match(/blackBerry/i);
+  },
+  iOs: function () {
+    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+  },
+  Opera: function () {
+    return navigator.userAgent.match(/Opera Mini/i);
+  },
+  Windows: function () {
+    return navigator.userAgent.match(/IEMobile/i);
+  },
+  any: function () {
+    return (
+      isMobile.Android() ||
+      isMobile.BlackBerry() ||
+      isMobile.iOs() ||
+      isMobile.Opera() ||
+      isMobile.Windows());
+  }
+};
+// add a class for the body depending on isMobile() result
+if (isMobile.any()) {
+  document.body.classList.add('_touch');
+} else {
+  document.body.classList.add('_pc');
+}
+
+
+//scroll to fixed sections
+// const menuLinks = document.querySelectorAll('menu__link[data-goto]');
+// if (menuLinks.length > 0) {
+//   menuLinks.forEach(menuLink => {
+//     menuLink.addEventListener("click", onMenuLinkClick)
+//   })
+// }

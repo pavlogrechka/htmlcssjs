@@ -311,6 +311,7 @@ color: #3A79FF;
   .header {
     max-width: 576px;
     position: relative;
+    padding: 16px 10px;
   }
 
   .box-ordered :nth-child(1){
@@ -337,21 +338,24 @@ color: #3A79FF;
   .header-logo {
 
   }
+
+  .hamburger.is-active .header-nav {
+    background-color: red;
+  }
   
   .header-nav {
     /* display: none; */
     /* width: 100vw;
     height: 100vh; */
     position: absolute;
-    padding: 0;
-    background-color: rgba(204, 204, 204, 0.5);
-    z-index: -1;
+    top: 60px;
+    /* padding: 0; */
+    background-color: rgba(128, 30, 30, 0.5);
     
   }
   
   .nav-list {
-    position: absolute;
-    top:40px;
+    /* position: absolute; */
     flex-direction: column;
     align-items: flex-start;
   }
@@ -400,16 +404,11 @@ color: #3A79FF;
     max-width: 320px;
   }
   
-  .first-header, .second-header {
-
-  }
-  
   .first-header {
 
   }
   
   .header-logo {
-    display: none;
   }
   
   .header-nav {
