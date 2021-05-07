@@ -1,6 +1,6 @@
-/* @import "css/hamburgers.css"; */
 @import "css/variables.css";
 @import "css/base.css";
+@import "css/hamburger.css";
 @import "css/header.css";
 @import "css/promo.css";
 @import "css/our-product.css";
@@ -12,7 +12,6 @@
 @import "css/get-started.css";
 @import "css/sign-up.css";
 
-
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +22,7 @@ html {
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 a {
@@ -38,12 +37,10 @@ ul {
 
 button {
   border: none;
-  background: none;  
+  background: none;
 }
 
-img{
+img {
   width: 100%;
   height: auto;
 }
-
-
