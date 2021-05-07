@@ -1,0 +1,85 @@
+.promo {
+  box-sizing: border-box;
+  min-height: 570px;
+  height: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 90px 50px;
+  background-color: #D8E0F7;
+  background-image: url(img/promo/chart.svg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #3D4F9F;
+}
+
+
+.promo-title {
+  margin-bottom: 28px;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 300;
+  font-weight: 300;
+}
+
+.promo-title span {
+  font-weight: 500;
+  /* color: #3D4F9F; */
+
+}
+
+.promo-text {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 20px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 29px;
+  letter-spacing: 0.03em;
+}
+
+.promo-btn {
+  margin-bottom: 220px;
+  border: none;
+  width: 52px;
+  height: 52px;
+  border-radius: 9999px;
+  position: relative;
+  background-color: #fff;
+}
+.promo-btn::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-left: 14px solid #5E81FF;
+  border-bottom: 7px solid transparent;
+  border-radius: 2px;
+  /* background-color: red; */
+  /* border-radius: 9999px; */
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.brands {
+
+  padding: 60px 0;
+}
+
+.brands-list {
+  display: flex;
+  justify-content: center;
+}
+
+.brands-item:not(:last-child) {
+  margin-right: 75px;
+}
+
+.brands-item img:hover {
+  background-color: red;
+  fill: rebeccapurple;
+}
+
