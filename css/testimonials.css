@@ -46,6 +46,16 @@
 @media screen and (max-width: 576px) {
   .testimonials {
     flex-direction: column;
+    padding: 20px;
+  }
+
+  .testimonials__sm-title {
+    margin-bottom: 20px;
+  }
+
+  .testimonials__title {
+    font-size: 30px;
+    line-height: 32px;
   }
   .testimonials__slider-text {
     padding: 20px 30px;
