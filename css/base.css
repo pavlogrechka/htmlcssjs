@@ -62,5 +62,31 @@
  
 }
 @media screen and (max-width: 320px) {
+
+  .title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  
+  .large-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  
+  .big-title {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  
+  .sm-title {
+    margin-bottom: 14px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  
+  .container {
+    max-width: var(--content-container);
+    margin: 0 auto;
+  }
  
 }

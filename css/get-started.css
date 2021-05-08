@@ -76,5 +76,10 @@
  
 }
 @media screen and (max-width: 320px) {
+
+  .get-started__large-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
  
 }

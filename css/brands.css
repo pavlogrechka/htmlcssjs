@@ -36,7 +36,6 @@
     -webkit-overflow-scrolling: touch;
   }
 
-  
   .brands__slides::-webkit-scrollbar {
     width: 10px;
     height: 10px;
@@ -50,7 +49,6 @@
   .brands__slides::-webkit-scrollbar-track {
     background: transparent;
   }
-
 
   .brands__slides>li {
     scroll-snap-align: start;
@@ -80,46 +78,10 @@
     max-width: 540px;
   }
 
-  .brands__slides {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  
-  .brands__slides::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-  }
-
-  .brands__slides::-webkit-scrollbar-thumb {
-    background: black;
-    border-radius: 10px;
-  }
-
-  .brands__slides::-webkit-scrollbar-track {
-    background: transparent;
-  }
-
-
   .brands__slides>li {
-    scroll-snap-align: start;
-    flex-shrink: 0;
     width: 500px;
     height: 200px;
     margin-right: 50px;
-    border-radius: 10px;
-    background: #eee;
-    transform-origin: center center;
-    transform: scale(1);
-    transition: transform 0.5s;
-    position: relative;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .brands__slides>li>a>img {
@@ -131,4 +93,17 @@
     max-width: 320px;
   }
  
+  .brands__slider {
+    max-width: 300px;
+  }
+
+  .brands__slides>li {
+    width: 280px;
+    height: 200px;
+    margin-right: 20px;
+  }
+
+  .brands__slides>li>a>img {
+    width: 200px;
+  }
 }

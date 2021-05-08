@@ -1,7 +1,6 @@
 .efficiency {
   display: flex;
   letter-spacing: 0.03em;
-
 }
 
 .percent-wrapper {
@@ -49,7 +48,49 @@
 }
 @media screen and (max-width: 992px) {
   
- 
+  .percent-wrapper {
+    display: flex;
+    background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+    width: 50%;
+    padding: 20px 40px;
+  }
+  
+  .percent {
+    max-width: 260px;
+    margin-left: auto;
+    color: #fff;
+    text-align: right;
+  }
+  
+  .percent-value, .count-value {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 45px;
+    
+  }
+  
+  .percent-info, .count-info {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+  }
+  
+  .count-wrapper {
+    width: 50%;
+    background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+    padding: 20px 40px;
+  }
+  
+  .count {
+    max-width: 260px;
+    margin-right: auto;
+    color: #5E80FF;
+  }
+  
+  .efficiency img {
+    margin-bottom: 24px;
+  }
 }
 @media screen and (max-width: 768px) {
  
