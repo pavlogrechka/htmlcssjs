@@ -44,6 +44,12 @@
  
 }
 @media screen and (max-width: 576px) {
+  .testimonials {
+    flex-direction: column;
+  }
+  .testimonials__slider-text {
+    padding: 20px 30px;
+  }
  
 }
 @media screen and (max-width: 320px) {
