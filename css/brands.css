@@ -32,7 +32,7 @@
   }
 
   .brands-item:not(:last-child) {
-    margin: 0;
+    margin-right: 30px;
   }
 
   .brands__slides::-webkit-scrollbar {
