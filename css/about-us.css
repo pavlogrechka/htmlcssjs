@@ -1,7 +1,7 @@
 .about-us {
   min-height: 500px;
   padding: 150px 0;
-  background: url(img/about-us/clouds.svg);
+  background-image: url(img/about-us/clouds.svg);
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
@@ -109,4 +109,126 @@
   font-family: 'Open Sans', sans-serif;
   color: #D43F3F;
   background: #FFD7D7;
+}
+
+
+@media screen and (max-width: 992px) {
+  
+  .about-us {
+    padding: 50px 0;
+    background: url(img/about-us/clouds.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  
+  .about-us__title {
+    margin-bottom: 92px;
+  }
+  
+  .about-us__items {
+    display: flex;
+    max-width: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 92px;
+  }
+  
+  .about-us__item {
+    position: relative;
+    max-width: 140px;
+    max-height: 254px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .about-us__item:not(:last-child) {
+    margin: 0;
+  }
+  
+  .about-us__item:not(:last-child)::after {
+    display: none;
+  }
+  
+  .about-us__icon {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 33px;
+  }
+  
+  .item-title {
+    margin-bottom: 25px;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #4074F8;
+  }
+  
+  
+  .item-text {
+    min-height: 100px;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 19px;
+    text-align: center;
+    color: #ADB3CB;
+  }
+  
+  .about-us-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .or {
+    position: relative;
+    padding: 0 48px;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ADB3CB;
+  }
+  
+  .or::before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 15px;
+    height: 1px;
+    background-color: #DAE4FE;
+  }
+  
+  .or::after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 15px;
+    height: 1px;
+    background-color: #DAE4FE;
+  }
+  
+  .btn__read-more {
+    font-family: 'Open Sans', sans-serif;
+    color: #D43F3F;
+    background: #FFD7D7;
+  }
+}
+@media screen and (max-width: 768px) {
+ 
+}
+@media screen and (max-width: 576px) {
+ 
+}
+@media screen and (max-width: 320px) {
+ 
 }

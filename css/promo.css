@@ -64,22 +64,31 @@
   transform: translate(-50%, -50%);
 }
 
-.brands {
-
-  padding: 60px 0;
+@media screen and (max-width: 992px) {
+  .promo {
+    min-height: 270px;
+    margin-bottom: 0;
+    padding: 40px 50px;
+  }
+  
+  .promo-btn {
+    margin-bottom: 20px;
+    border: none;
+    width: 52px;
+    height: 52px;
+    border-radius: 9999px;
+    position: relative;
+    background-color: #fff;
+  }
+  
+ 
 }
-
-.brands-list {
-  display: flex;
-  justify-content: center;
+@media screen and (max-width: 768px) {
+ 
 }
-
-.brands-item:not(:last-child) {
-  margin-right: 75px;
+@media screen and (max-width: 576px) {
+ 
 }
-
-.brands-item img:hover {
-  background-color: red;
-  fill: rebeccapurple;
+@media screen and (max-width: 320px) {
+ 
 }
-

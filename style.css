@@ -3,12 +3,13 @@
 @import "css/hamburger.css";
 @import "css/header.css";
 @import "css/promo.css";
+@import "css/brands.css";
 @import "css/our-product.css";
 @import "css/about-us.css";
 @import "css/efficiency.css";
 @import "css/our-resources.css";
 @import "css/testimonials.css";
-@import "css/customers-help.css";
+@import "css/faq.css";
 @import "css/get-started.css";
 @import "css/sign-up.css";
 
@@ -41,6 +42,6 @@ button {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }

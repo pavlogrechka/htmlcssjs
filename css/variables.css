@@ -1,7 +1,47 @@
 :root {
+  /* COLORS */
   --main-color:black;
-  --secondary-color:grey;
-  --accent-color:orange;
+  --secondary-color: #4C85FF;
+  --accent-color: #FFD7D7;
   --warning-color:yellow;
   --danger-color:red;
+  --title-color: #3D4F9F;
+  --main-text-color: #8D96BD;
+  --btn-bg-color-main: #D2E1FF;
+  --btn-font-color-main: #3A79FF;
+  --btn-bg-color-accent: #FFD7D7;
+  --btn-font-color-accent: #D43F3F;
+
+  /* SIZE */
+  --offset-main: 117px;
+  --horizontal-padding: 20px;
+  --content-container: calc(1440px - var(--offset-main)*2);
+
+}
+
+@media screen and (max-width: 992px) {
+  :root {
+    --offset-main: 40px;
+    --content-container: calc(992px - var(--offset-main)*2);
+  }
+ 
+}
+@media screen and (max-width: 768px) {
+  :root {
+    --offset-main: 40px;
+    --content-container: calc(768px - var(--offset-main)*2);
+  }
+ 
+}
+@media screen and (max-width: 576px) {
+  :root {
+    --offset-main: 20px;
+    --content-container: calc(576px - var(--offset-main)*2);
+  }
+}
+@media screen and (max-width: 320px) {
+  :root {
+    --offset-main: 10px;
+    --content-container: calc(320px - var(--offset-main)*2);
+  }
 }

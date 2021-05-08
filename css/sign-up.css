@@ -48,3 +48,31 @@
   color: #fff;
   background-color: #4D6CE1;
 }
+
+
+@media screen and (max-width: 992px) {
+  
+  .sign-up__first {
+    max-width: 300px;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sign-up {
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    padding: var(--offset-main);
+  }
+
+  .sign-up__first {
+    margin-right: 0;
+  }
+ 
+}
+@media screen and (max-width: 576px) {
+ 
+}
+@media screen and (max-width: 320px) {
+ 
+}

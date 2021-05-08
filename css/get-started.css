@@ -62,3 +62,19 @@
   color: #C7D3FF;
   background-color: #565F82;
 }
+
+@media screen and (max-width: 992px) {
+  .get-started {
+    padding: 40px 40px;
+  }
+ 
+}
+@media screen and (max-width: 768px) {
+ 
+}
+@media screen and (max-width: 576px) {
+ 
+}
+@media screen and (max-width: 320px) {
+ 
+}
