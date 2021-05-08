@@ -14,7 +14,6 @@
 }
 
 .big-title {
-
   font-family: Quicksand;
   font-weight: 500;
   font-size: 36px;
@@ -33,6 +32,21 @@
   color: #3D4F9F;
 }
 
+
+.text {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 20px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 29px;
+  letter-spacing: 0.03em;
+}
+
+.sm-text {
+
+}
 
 .btn {
   box-sizing: border-box;
@@ -59,6 +73,11 @@
  
 }
 @media screen and (max-width: 576px) {
+
+  .large-title {
+    font-size: 36px;
+    line-height: 36px;
+  }
  
 }
 @media screen and (max-width: 320px) {
