@@ -9,16 +9,12 @@
 }
 
 .header-logo {
-  flex-shrink: 0;
-  flex-grow: 0;
+  /* flex-shrink: 0;
+  flex-grow: 0; */
   border-radius: 9999px;
   background-color: var(--main-color);
   height: 30px;
   width: 30px;
-}
-
-.header-nav {
-
 }
 
 .hamburger {
@@ -85,54 +81,14 @@
 
 @media screen and (max-width: 992px) {
   .header {
-    max-width: var(--content-container);
-  }
-
-  .header-logo {
-    flex-shrink: 0;
-    flex-grow: 0;
-    border-radius: 9999px;
-    height: 30px;
-    width: 30px;
-  }
-
-  .nav-list {
-  }
-
-  .nav-link {
-  }
-
-  .nav-link:hover {
-  }
-
-  .header-icons {
-  }
-
-  .icon {
-  }
-
-  .icon:hover {
-  }
-
-  .icon:not(:last-child) {
   }
 
   .icon:last-child {
     margin-right: 30px;
   }
-
-  .second-header {
-  }
-
-  .btn__get-started {
-  }
 }
 
 @media screen and (max-width: 768px) {
-  .header {
-    max-width: var(--content-container);
-  }
-
   .header-logo {
     margin-right: auto;
   }
@@ -178,15 +134,6 @@
     z-index: -1;
   }
 
-  .header-nav {
-
-
-  }
-
-  .nav-list {
-
-  }
-
   .nav-item {
     font-size: 24px;
     line-height: 36px;
@@ -195,122 +142,16 @@
   .nav-item:not(:last-child) {
   }
 
-  .nav-link {
-  }
-
-  .icon {
-  }
-
-  .icon:hover {
-  }
-
-  .icon:not(:last-child) {
-  }
-
-  .icon:last-child {
-  }
-
-  .second-header {
-  }
-
   .btn__get-started--header {
     display: none;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .header {
-    max-width: var(--content-container);
-    /* position: relative;
-    padding: 16px 10px; */
-  }
-
-  .header-logo {
-  }
-
-  .nav-item {
-
-  }
-
-  .nav-item:not(:last-child) {
-  }
-
-  .nav-link {
-  }
-
-  .nav-link:hover {
-  }
-
   .header-icons {
     display: none;
-  }
-
-  .icon {
-  }
-
-  .icon:hover {
-  }
-
-  .icon:not(:last-child) {
-  }
-
-  .icon:last-child {
-  }
-
-  .second-header {
-  }
-
-  .btn__get-started {
   }
 }
 
 @media screen and (max-width: 320px) {
-  .header {
-    max-width: var(--content-container);
-  }
-
-  .first-header {
-  }
-
-  .header-logo {
-  }
-
-  .header-nav {
-  }
-
-  .nav-list {
-  }
-
-  .nav-item {
-  }
-
-  .nav-item:not(:last-child) {
-  }
-
-  .nav-link {
-  }
-
-  .nav-link:hover {
-  }
-
-  .header-icons {
-  }
-
-  .icon {
-  }
-
-  .icon:hover {
-  }
-
-  .icon:not(:last-child) {
-  }
-
-  .icon:last-child {
-  }
-
-  .second-header {
-  }
-
-  .btn__get-started {
-  }
 }

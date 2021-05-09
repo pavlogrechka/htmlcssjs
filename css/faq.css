@@ -6,7 +6,7 @@
 }
 
 .faq__title {
-  margin-bottom: 68px;
+  /* margin-bottom: 68px; */
 }
 
 .faq-list {
@@ -34,7 +34,6 @@
   }
   
   .faq__title {
-    margin-bottom: 68px;
   }
   
   .faq-list {
@@ -61,8 +60,27 @@
  
 }
 @media screen and (max-width: 576px) {
+  .faq {
+    text-align-last: left;
+    padding: 40px;
+  }
+  
+  .faq__sm-title {
+  }
+  .faq__title {
+  }
+  
+  .faq-list {
+  }
+  
+
  
 }
 @media screen and (max-width: 320px) {
- 
+  .faq {
+    padding: 20px;
+  }
+ ul {
+   padding: 0;
+ }
 }

@@ -34,21 +34,22 @@
 
 
 .text {
-  max-width: 500px;
   display: block;
   margin: 0 auto 20px;
   font-family: Roboto;
-  font-weight: normal;
   font-size: 15px;
   line-height: 29px;
   letter-spacing: 0.03em;
 }
 
 .sm-text {
+  font-size: 12px;
+  line-height: 23px;
 
 }
 
 .btn {
+  max-height: 42px;
   box-sizing: border-box;
   min-width: 110px;
   padding: 13px 15px;
@@ -58,6 +59,11 @@
   line-height: 16px;
   text-align: center;
   cursor: pointer;
+  border: none;
+}
+
+.large-btn {
+
 }
 
 .container {
@@ -67,16 +73,33 @@
 
 @media screen and (max-width: 992px) {
   
- 
 }
 @media screen and (max-width: 768px) {
  
 }
 @media screen and (max-width: 576px) {
 
+  .sm-title {
+    margin: 0 0 20px;
+    text-align: left;
+  }
+
+  .title {
+    margin: 0 0 20px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+  }
+
   .large-title {
+    margin: 0 0 20px;
     font-size: 36px;
     line-height: 36px;
+    text-align: left;
+  }
+
+  .text {
+    text-align: left;
   }
  
 }
@@ -106,6 +129,10 @@
   .container {
     max-width: var(--content-container);
     margin: 0 auto;
+  }
+
+  .btn {
+    /* min-width: 260px; */
   }
  
 }

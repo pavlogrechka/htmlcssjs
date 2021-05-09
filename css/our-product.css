@@ -17,7 +17,7 @@
 }
 
 .our-product__sm-title {
-  margin-bottom: 26px;
+  margin: 0 0 26px;
 }
 
 .section-title {
@@ -76,10 +76,6 @@
   
   .first-part {
     padding-left: 0;
-  }
-  
-  .our-product__sm-title {
-    margin-bottom: 26px;
   }
   
   .section-title {
@@ -152,6 +148,9 @@
 
 }
 @media screen and (max-width: 320px) {
+  .our-product {
+    padding: 20px;
+  }
 
   .first-part {
     max-width: 100%;

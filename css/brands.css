@@ -60,28 +60,19 @@
     transition: transform 0.5s;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
   }
 
-  .brands__slides>li>a>img {
-    /* width: 400px; */
+  .brands__slides>li>img {
+    max-width: 70%;
   }
  
 }
 @media screen and (max-width: 576px) {
-  .brands__slider {
-    /* max-width: 540px; */
+  .brands__slides>li>img {
+    max-width: 80%;
   }
 
-  .brands__slides>li {
-    /* width: 500px;
-    height: 200px;
-    margin-right: 50px; */
-  }
 
-  .brands__slides>li>a>img {
-    /* width: 350px; */
-  }
 }
 @media screen and (max-width: 320px) {
   .brands {

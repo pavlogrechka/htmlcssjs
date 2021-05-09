@@ -1,6 +1,5 @@
 .get-started {
   padding: 92px 364px;
-  text-align: center;
   color: #fff;
   background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
 }
@@ -12,11 +11,6 @@
 
 .get-started__large-title {
   margin-bottom: 28px;
-  font-family: Quicksand;
-  font-weight: 300;
-  font-size: 48px;
-  line-height: 60px;
-  text-align: center;
   color: #FFFFFF;
 }
 
@@ -33,7 +27,7 @@
   font-weight: normal;
   font-size: 15px;
   line-height: 29px;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
 }
 
@@ -43,21 +37,12 @@
 }
 
 .pricing-btn {
-  max-width: 132px;
-  max-height: 43px;
+  /* max-width: 132px; */
   color: #565F82;
   background-color: #fff;
 }
 
 .read__btn {
-  min-width: 155px;
-  padding: 13px 8px;
-  font-family: Quicksand;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 16px;
-  text-align: center;
   border: 1px solid #C7D3FF;
   color: #C7D3FF;
   background-color: #565F82;
@@ -65,7 +50,7 @@
 
 @media screen and (max-width: 992px) {
   .get-started {
-    padding: 40px 40px;
+    padding: 40px;
   }
  
 }
@@ -77,9 +62,20 @@
 }
 @media screen and (max-width: 320px) {
 
-  .get-started__large-title {
-    font-size: 30px;
-    line-height: 30px;
+  .get-started {
+    padding: 20px;
   }
  
+  .get-started___footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .get-started___footer :nth-child(n) {
+    min-width: 260px;
+  }
+
+  .get-started___footer :nth-child(1) {
+    margin-bottom: 10px;
+  }
 }
