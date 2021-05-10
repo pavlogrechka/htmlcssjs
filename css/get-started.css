@@ -58,8 +58,6 @@
  
 }
 @media screen and (max-width: 576px) {
-<<<<<<< Updated upstream
-=======
 
   .get-started___footer {
     flex-direction: column;
@@ -71,7 +69,6 @@
   .get-started___footer :nth-child(1) {
     margin-bottom: 10px;
   }
->>>>>>> Stashed changes
  
 }
 @media screen and (max-width: 320px) {
