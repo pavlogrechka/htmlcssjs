@@ -27,8 +27,12 @@
 }
 
 .testimonials__text {
-  color: #A4ABC8;
+  font-family: Open Sans;
   font-weight: 600;
+  font-size: 12px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  color: #A4ABC8;
 }
 
 .testimonials__second-part {

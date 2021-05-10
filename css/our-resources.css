@@ -146,7 +146,9 @@
     width: 100%;
     margin: 0;
   }
-
+  .slider__footer :nth-child(n) {
+    min-width: 80%;
+  }
 }
 @media screen and (max-width: 320px) {
   .our-resources {
@@ -157,6 +159,9 @@
     padding: 0;
   }
 
+<<<<<<< Updated upstream
   .slider__footer :nth-child(n) {
   }
+=======
+>>>>>>> Stashed changes
 }
