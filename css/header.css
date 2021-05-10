@@ -27,7 +27,7 @@
 }
 
 .nav-list {
-  width: 427px;
+  max-width: 427px;
   margin-right: auto;
   display: flex;
 }
@@ -43,7 +43,7 @@
 }
 
 .nav-item {
-  margin-right: auto;
+  margin-right: 20px;
 }
 
 .nav-link {
@@ -84,8 +84,13 @@
 }
 
 @media screen and (max-width: 992px) {
-  .header {
+  .header-logo {
+    margin-right: 30px;
   }
+
+  /* .nav-item {
+    margin-right: 20px;
+  } */
 
   .icon:last-child {
     margin-right: 30px;
