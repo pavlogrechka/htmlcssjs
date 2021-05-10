@@ -124,13 +124,27 @@
     padding: 40px;
   }
   .slider {
-    padding: 20px;
+    padding: 0;
   }
 
   .slider__footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+  }
+
+  .our-resources__slider-left {
+    
+  }
+
+  .btn__add {
+    background-color: hsl(110deg 57% 56% / 50%);
+  }
+
+  .slider__footer > * {
+    width: 100%;
+    margin: 0;
   }
   .slider__footer :nth-child(n) {
     min-width: 80%;
@@ -147,7 +161,6 @@
 
 <<<<<<< Updated upstream
   .slider__footer :nth-child(n) {
-    min-width: 260px;
   }
 =======
 >>>>>>> Stashed changes
