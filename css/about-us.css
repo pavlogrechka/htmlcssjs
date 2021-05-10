@@ -198,6 +198,19 @@
     margin-right: 0;
   }
 
+  .about-us-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .about-us-buttons > *{
+    width: 100%;
+  }
+  
+  .or {
+    display: none;
+  }
+
 }
 @media screen and (max-width: 320px) {
 
