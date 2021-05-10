@@ -15,6 +15,10 @@
   text-align: left;
 }
 
+ul {
+  padding: 0;
+}
+
 .faq-item {
   padding: 20px 0px;
   font-family: Quicksand;
@@ -65,14 +69,6 @@
     padding: 40px;
   }
   
-  .faq__sm-title {
-  }
-  .faq__title {
-  }
-  
-  .faq-list {
-  }
-  
 
  
 }
@@ -80,7 +76,5 @@
   .faq {
     padding: 20px;
   }
- ul {
-   padding: 0;
- }
+
 }

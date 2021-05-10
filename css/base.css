@@ -121,7 +121,7 @@
   }
   
   .sm-title {
-    margin-bottom: 14px;
+    /* margin-bottom: 14px; */
     font-size: 10px;
     line-height: 12px;
   }
@@ -132,7 +132,6 @@
   }
 
   .btn {
-    /* min-width: 260px; */
   }
  
 }

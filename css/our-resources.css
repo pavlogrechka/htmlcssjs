@@ -132,7 +132,9 @@
     flex-direction: column;
     align-items: center;
   }
-
+  .slider__footer :nth-child(n) {
+    min-width: 80%;
+  }
 }
 @media screen and (max-width: 320px) {
   .our-resources {
@@ -143,7 +145,10 @@
     padding: 0;
   }
 
+<<<<<<< Updated upstream
   .slider__footer :nth-child(n) {
     min-width: 260px;
   }
+=======
+>>>>>>> Stashed changes
 }

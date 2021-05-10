@@ -68,6 +68,10 @@
  
 }
 @media screen and (max-width: 576px) {
+
+  .brands__slides>li {
+    height: 150px;
+  }
   .brands__slides>li>img {
     max-width: 80%;
   }

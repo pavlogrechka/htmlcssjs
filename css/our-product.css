@@ -7,17 +7,17 @@
 
 .our-product > .container {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 
 }
 
 .first-part {
   max-width: 413px;
   margin-right: 55px;
+  margin-left: auto;
 }
 
 .our-product__sm-title {
-  margin: 0 0 26px;
 }
 
 .section-title {
@@ -64,6 +64,9 @@
   max-height: 436px;
   display: flex;
   align-items: center;
+}
+.second-part picture img {
+  max-width: 500px
 }
 
 
@@ -144,7 +147,14 @@
     line-height: 30px;
   }
 
+  .first-part {
+    max-width:100%;
+    margin:0;
+  }
 
+  .second-part {
+    display: none;
+  }
 
 }
 @media screen and (max-width: 320px) {

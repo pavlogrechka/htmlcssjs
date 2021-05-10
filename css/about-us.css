@@ -16,6 +16,7 @@
   justify-content: center;
   max-width: 761px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .about-us__item {
@@ -57,7 +58,6 @@
 
 
 .item-text {
-  min-height: 100px;
   font-family: Open Sans;
   font-weight: 600;
   font-size: 11px;
@@ -109,41 +109,15 @@
 
 
 @media screen and (max-width: 992px) {
-  
-  .about-us {
-    padding: 50px 0;
-    background: url(img/about-us/clouds.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    text-align: center;
-  }
-  
-  .about-us__icon {
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 33px;
-  }
-  
   .item-title {
     margin-bottom: 25px;
-    font-family: Open Sans;
-    font-weight: 700;
     font-size: 14px;
     line-height: 25px;
-    text-align: center;
-    color: #4074F8;
   }
   
-  
   .item-text {
-    min-height: 100px;
-    font-family: Open Sans;
-    font-weight: 600;
     font-size: 11px;
     line-height: 19px;
-    text-align: center;
-    color: #ADB3CB;
   }
   
   .btn__read-more {
@@ -153,6 +127,21 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .about-us {
+    padding: 40px;
+  }
+
+  .about-us__title {
+    margin-bottom: 40px;
+  }
+
+  .about-us__item {
+    flex: 1 1 100px;
+  }
+
+  .about-us__item:not(:last-child) {
+    margin: 0 20px 0 0 ;
+  }
  
 }
 @media screen and (max-width: 576px) {
@@ -166,7 +155,7 @@
 
 
   .about-us__items {
-    align-items: flex-start;
+    /* align-items: flex-start; */
     flex-direction: column;
     margin: 0;
   }
@@ -189,7 +178,7 @@
   
   .item-text {
     min-height: auto;
-    align-self: baseline;
+    /* align-self: baseline; */
     text-align: left;
     font-size: 14px;
   }

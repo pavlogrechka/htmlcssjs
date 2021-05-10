@@ -15,7 +15,7 @@
   /* SIZE */
   --offset-main: 117px;
   --horizontal-padding: 20px;
-  --content-container: calc(1440px - var(--offset-main)*2);
+  --content-container: 1440px;
 
 }
 

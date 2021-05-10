@@ -9,8 +9,7 @@
 }
 
 .header-logo {
-  /* flex-shrink: 0;
-  flex-grow: 0; */
+  margin-right: 70px;
   border-radius: 9999px;
   background-color: var(--main-color);
   height: 30px;
@@ -22,8 +21,14 @@
   z-index: 10;
 }
 
+.nav-container {
+
+  margin-right: auto;
+}
+
 .nav-list {
-  max-width: 427px;
+  width: 427px;
+  margin-right: auto;
   display: flex;
 }
 
@@ -34,12 +39,11 @@
   line-height: 15px;
   letter-spacing: 0.05em;
   text-transform: capitalize;
-  /* color: #5e81fe; */
   text-shadow: 0px 0px 5px #e6e6e6;
 }
 
 .nav-item {
-  padding-right: 15px;
+  margin-right: auto;
 }
 
 .nav-link {
